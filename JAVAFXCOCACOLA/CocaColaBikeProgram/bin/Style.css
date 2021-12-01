@@ -1,0 +1,58 @@
+ .root{
+     -fx-background-color: linear-gradient(#383838, #838383);
+     -fx-font-size: 11pt;
+     -fx-font-family: "Lucida Sans Unicode";
+     }
+
+ .label{
+     -fx-text-fill: #e8e8e8;
+  }
+
+ .button{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+ }
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#newDoneBtn {
+	-fx-background-radius: 50;
+	-fx-text-fill: black;
+	-fx-background-color: linear-gradient(green, white);
+	-fx-pref-width: 200px;
+	-fx-pref-height: 100px;
+	
+}
+
+#newtxt {
+	-fx-background-radius: 50;
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-pref-width: 400px;
+	-fx-pref-height: 200px;
+	
+	
+}
+
+ .text-area{
+     -fx-background-color: white;
+     -fx-background-radius: 0;
+  }
+  
+  .grid {
+    -fx-background-color: red;
+}
+
+.text-field:error {
+  -fx-text-box-border: red ;
+  -fx-focus-color: red ;
+}
+
+  
